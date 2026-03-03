@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.cont1{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:black;
+  color: white;
+  text-align: center;
+  border-right: 3px solid #3D4F5C;
+}
+
+.cont1 img{
+  width: 80%;
+  height: auto;
+}
+.cont2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #152127;
+}
+
+.cont2 p{
+  color: #8E9EAB;
+}
+
+.cont2 h2{
+  margin-right: 60%;
+  color: #F1F1F0;
+}
+
+input{
+  display: flex;
+  margin: 9px;
+  padding: 15px;
+  color: #8E9EAB;
+  width: 600px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #8E9EAB;
+  border-radius: 9px;
+  font-size: 16px;
+}
+
+.ingia, .fb-btn, .cna{
+  padding: 10px;
+  width: 600px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.58);
+}
+
+.ingia{
+  margin: 10px;
+  background-color:#0D3C71;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.ingia:disabled{
+  background-color: #0D3C71;
+  cursor: not-allowed;
+}
+
+span{
+   background: linear-gradient(to right, #ff5c00,#ff0069, #D400C2);
+  background-clip: text;
+ 
+  color: transparent;
+  
+}
+
+.fb-btn{
+  margin: 10px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+}
+
+.cna{
+  margin: 10px;
+  background-color: transparent;
+  color: #4BA5D5;
+  border: 1px solid #4BA5D5;
+  border-radius: 10px;
+}
+
